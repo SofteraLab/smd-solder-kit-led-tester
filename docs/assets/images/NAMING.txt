@@ -1,0 +1,14 @@
+Сталі імена зображень LED & BAT Tester SK-15.
+
+banner.jpg                 герой / зібрана плата
+how-it-works.jpg           блоки схеми
+board-overview.jpg         огляд лицьової сторони
+board-back.jpg             LDO і прозвонка
+kit-contents.jpg           комплектація та номінали
+assembly-order.jpg         порядок збірки
+schematic-button-led.jpg   схема кнопка + LED
+schematic-continuity.jpg   схема прозвонки
+schematic-ldo.jpg          схема AMS1117 1.5V
+logo.png                   Softera Lab
+
+Зі сторінок docs: ./assets/images/<ім'я>
