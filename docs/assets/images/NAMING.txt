@@ -1,14 +1,10 @@
-Сталі імена зображень LED & BAT Tester SK-15.
+Структура зображень для обох мов:
 
-banner.jpg                 герой / зібрана плата
-how-it-works.jpg           блоки схеми
-board-overview.jpg         огляд лицьової сторони
-board-back.jpg             LDO і прозвонка
-kit-contents.jpg           комплектація та номінали
-assembly-order.jpg         порядок збірки
-schematic-button-led.jpg   схема кнопка + LED
-schematic-continuity.jpg   схема прозвонки
-schematic-ldo.jpg          схема AMS1117 1.5V
-logo.png                   Softera Lab
+images/
+  en/     English cards (README.md)
+  uk/     Ukrainian cards (README.uk.md + docs/)
 
-Зі сторінок docs: ./assets/images/<ім'я>
+SK-15: en/ = AI English cards (.png), uk/ = original cards (.jpg)
+SK-40: en/ і uk/ поки однакові (UA). Пізніше замініть en/ на англійські макети.
+
+Логотип: logo.png у кожній мовній папці.

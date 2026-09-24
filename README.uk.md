@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.softeralab.com/">
-    <img src="docs/assets/images/logo.png" alt="Softera Lab" width="96">
+    <img src="docs/assets/images/uk/logo.png" alt="Softera Lab" width="96">
   </a>
 </p>
 
@@ -11,14 +11,16 @@
 <p align="center">
   <a href="README.md"><img alt="EN" src="https://img.shields.io/badge/EN-README.md-F97316?style=flat-square"></a>
   <a href="https://www.softeralab.com/"><img alt="Сайт" src="https://img.shields.io/badge/softeralab.com-09090B?style=flat-square&labelColor=18181B"></a>
-  <a href="https://www.softeralab.com/course-basic-soldering/"><img alt="Курс пайки" src="https://img.shields.io/badge/Курс%20пайки-09090B?style=flat-square&labelColor=18181B"></a>
+  <a href="https://www.instagram.com/softeralab/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-09090B?style=flat-square&labelColor=18181B"></a>
+  <a href="https://www.youtube.com/@SofteraLab"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-09090B?style=flat-square&labelColor=18181B"></a>
   <img alt="CR2032" src="https://img.shields.io/badge/CR2032-3V-09090B?style=flat-square&labelColor=F97316">
-  <img alt="LED TEST" src="https://img.shields.io/badge/LED%20TEST-0402…1206-09090B?style=flat-square&labelColor=18181B">
 </p>
 
 <p align="center"><strong>Мови:</strong> <a href="README.md">English</a> · Українська (ця сторінка)</p>
 
-![LED & BAT Tester](docs/assets/images/banner.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/banner.jpg" alt="LED & BAT Tester" width="720">
+</p>
 
 Навчальний набір, який після збірки стає інструментом: перевірка LED, батарейки CR2032 і прозвонка дротів. Сторінка для покупця та учасників курсу пайки.
 
@@ -28,7 +30,9 @@
 
 ## Як працює
 
-![Блоки схеми](docs/assets/images/how-it-works.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/how-it-works.jpg" alt="Блоки схеми" width="720">
+</p>
 
 1. **Батарейка CR2032 3V** — джерело живлення  
 2. **AMS1117 LDO** — стабільні **1.5 V**  
@@ -49,9 +53,13 @@
 
 Мікроконтролера немає.
 
-![Огляд плати](docs/assets/images/board-overview.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/board-overview.jpg" alt="Огляд плати" width="720">
+</p>
 
-![Друга сторона — LDO і прозвонка](docs/assets/images/board-back.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/board-back.jpg" alt="Друга сторона — LDO і прозвонка" width="720">
+</p>
 
 ## Характеристики
 
@@ -68,7 +76,9 @@
 
 ## Комплектація та номінали
 
-![Комплектація](docs/assets/images/kit-contents.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/kit-contents.jpg" alt="Комплектація" width="720">
+</p>
 
 1. **R1, R2, R3** — 220 Ω (код 221)  
 2. **D1** — LED  
@@ -85,20 +95,26 @@
 
 ### Кнопка + LED + батарейка
 
-![Схема кнопки](docs/assets/images/schematic-button-led.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/schematic-button-led.jpg" alt="Схема кнопки" width="720">
+</p>
 
 Натиснув кнопку — коло замкнулось — LED світиться. Відпустив — гасне.  
 `I = (3V − Vf) / 220Ω`
 
 ### Прозвонка дротів
 
-![Схема прозвонки](docs/assets/images/schematic-continuity.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/schematic-continuity.jpg" alt="Схема прозвонки" width="720">
+</p>
 
 Торкніться кінців дроту до площадок **TEST**. Цілий дріт — LED світиться. Обрив — не світиться.
 
 ### LDO AMS1117 — 1.5 V
 
-![Схема LDO](docs/assets/images/schematic-ldo.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/schematic-ldo.jpg" alt="Схема LDO" width="720">
+</p>
 
 Лінійний стабілізатор знижує **3V → 1.5V** для чутливих LED (з C1 / C2 0.1 µF).
 
@@ -106,7 +122,9 @@
 
 Повний порядок: [docs/02-getting-started.md](docs/02-getting-started.md).
 
-![Порядок збірки](docs/assets/images/assembly-order.jpg)
+<p align="center">
+  <img src="docs/assets/images/uk/assembly-order.jpg" alt="Порядок збірки" width="720">
+</p>
 
 1. Припаяй **R1, R2, R3** (220 Ω)  
 2. Припаяй **D1** (LED) — **полярність!**  
@@ -125,6 +143,7 @@
 | Збірка | [docs/02-getting-started.md](docs/02-getting-started.md) |
 | Користування | [docs/03-usage.md](docs/03-usage.md) |
 | Несправності | [docs/04-troubleshooting.md](docs/04-troubleshooting.md) |
+| Сайт | [softeralab.com](https://www.softeralab.com/) |
 | Курс пайки | [сторінка курсу](https://www.softeralab.com/course-basic-soldering/) |
 | Контакти | [Контакти](https://www.softeralab.com/our-contacts/) · support@softeralab.com |
 | Instagram | [instagram.com/softeralab](https://www.instagram.com/softeralab/) |

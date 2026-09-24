@@ -22,7 +22,7 @@ Sensitive LEDs often prefer the **1.5 V** position (via AMS1117).
 
 ## Continuity (прозвонка)
 
-![Continuity card](./assets/images/schematic-continuity.jpg)
+![Continuity card](./assets/images/uk/schematic-continuity.jpg)
 
 1. Touch both ends of the wire to the **TEST** pads on the second side.  
 2. Intact conductor → indicator LED on.  
@@ -30,7 +30,7 @@ Sensitive LEDs often prefer the **1.5 V** position (via AMS1117).
 
 ## Button + LED (BAT TEST)
 
-![Button card](./assets/images/schematic-button-led.jpg)
+![Button card](./assets/images/uk/schematic-button-led.jpg)
 
 1. Press **Test**.  
 2. Circuit closes → onboard LED lights.  
@@ -41,6 +41,6 @@ Current through the LED is limited by **220 Ω**:
 
 ## LDO note
 
-![LDO card](./assets/images/schematic-ldo.jpg)
+![LDO card](./assets/images/uk/schematic-ldo.jpg)
 
 AMS1117-1.5 with **C1 / C2 0.1 µF** provides a stable **1.5 V** rail for the LED TEST path when the switch selects that mode.

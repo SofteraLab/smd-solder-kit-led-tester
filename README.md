@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.softeralab.com/">
-    <img src="docs/assets/images/logo.png" alt="Softera Lab" width="96">
+    <img src="docs/assets/images/en/logo.png" alt="Softera Lab" width="96">
   </a>
 </p>
 
@@ -11,14 +11,16 @@
 <p align="center">
   <a href="README.uk.md"><img alt="UA" src="https://img.shields.io/badge/UA-README.uk.md-F97316?style=flat-square"></a>
   <a href="https://www.softeralab.com/"><img alt="Website" src="https://img.shields.io/badge/softeralab.com-09090B?style=flat-square&labelColor=18181B"></a>
-  <a href="https://www.softeralab.com/course-basic-soldering/"><img alt="Soldering course" src="https://img.shields.io/badge/Soldering%20course-09090B?style=flat-square&labelColor=18181B"></a>
+  <a href="https://www.instagram.com/softeralab/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-09090B?style=flat-square&labelColor=18181B"></a>
+  <a href="https://www.youtube.com/@SofteraLab"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-09090B?style=flat-square&labelColor=18181B"></a>
   <img alt="CR2032" src="https://img.shields.io/badge/CR2032-3V-09090B?style=flat-square&labelColor=F97316">
-  <img alt="LED TEST" src="https://img.shields.io/badge/LED%20TEST-0402…1206-09090B?style=flat-square&labelColor=18181B">
 </p>
 
 <p align="center"><strong>Languages:</strong> English (this page) · <a href="README.uk.md">Українська</a></p>
 
-![LED & BAT Tester](docs/assets/images/banner.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/banner.png" alt="LED & BAT Tester" width="720">
+</p>
 
 Softera Lab practice kit that becomes a real tool after assembly: test LEDs, check a CR2032 cell, and probe wire continuity. Product page and assembly guide for buyers and soldering-course students.
 
@@ -28,7 +30,9 @@ This is **not an open-source hardware project**. Manufacturing files are not pub
 
 ## How it works
 
-![Tester blocks](docs/assets/images/how-it-works.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/how-it-works.png" alt="Tester blocks" width="720">
+</p>
 
 1. **CR2032 3V** — power source  
 2. **AMS1117 LDO** — stable **1.5 V** rail  
@@ -49,9 +53,13 @@ This is **not an open-source hardware project**. Manufacturing files are not pub
 
 There is **no microcontroller**. The circuit is discrete: battery, LDO, resistors, LED, switch, and button.
 
-![Board overview](docs/assets/images/board-overview.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/board-overview.png" alt="Board overview" width="720">
+</p>
 
-![Second side — LDO and continuity](docs/assets/images/board-back.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/board-back.png" alt="Second side — LDO and continuity" width="720">
+</p>
 
 ## Specifications
 
@@ -68,49 +76,57 @@ There is **no microcontroller**. The circuit is discrete: battery, LDO, resistor
 
 ## What's in the kit
 
-![Components and values](docs/assets/images/kit-contents.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/kit-contents.png" alt="Components and values" width="720">
+</p>
 
-1. **R1, R2, R3** — 220 Ω (code 221)  
+1. **R1, R2, R3** — 220 ohm (code 221)  
 2. **D1** — LED  
-3. **C1, C2** — 0.1 µF (100 nF), 0805  
+3. **C1, C2** — 0.1 uF (100 nF), 0805  
 4. **U1** — AMS1117-1.5, LDO, SOT-223  
 5. **CR2032** holder, 3 V  
 6. **Switch** — power mode 1.5 V \| 3 V (3 pins)  
 7. **Test** button  
 8. **LED TEST** pads — 3 mm, 5 mm, 0402, 0603, 0805, 1206  
 
-Package sizes on silkscreen follow the kit revision; use the values on the board and on the kits card above.
-
 ## Circuit ideas (training cards)
 
 ### Button + LED + battery
 
-![Button LED schematic](docs/assets/images/schematic-button-led.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/schematic-button-led.png" alt="Button LED schematic" width="720">
+</p>
 
 Press Test → circuit closes → LED on. Release → LED off.  
-Current limit: `I = (3V − Vf) / 220Ω`.
+Current limit: `I = (3V - Vf) / 220ohm`.
 
 ### Wire continuity
 
-![Continuity schematic](docs/assets/images/schematic-continuity.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/schematic-continuity.png" alt="Continuity schematic" width="720">
+</p>
 
 Touch both ends of a wire to **TEST** pads. Intact wire → LED on. Open wire → LED off.
 
 ### LDO AMS1117 — 1.5 V
 
-![LDO schematic](docs/assets/images/schematic-ldo.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/schematic-ldo.png" alt="LDO schematic" width="720">
+</p>
 
-Linear regulator steps **3 V → 1.5 V** for sensitive LEDs (with C1 / C2 0.1 µF).
+Linear regulator steps **3 V → 1.5 V** for sensitive LEDs (with C1 / C2 0.1 uF).
 
 ## Assembly (short)
 
 Full guide: [docs/02-getting-started.md](docs/02-getting-started.md).
 
-![Assembly order](docs/assets/images/assembly-order.jpg)
+<p align="center">
+  <img src="docs/assets/images/en/assembly-order.png" alt="Assembly order" width="720">
+</p>
 
-1. Solder **R1, R2, R3** (220 Ω)  
+1. Solder **R1, R2, R3** (220 ohm)  
 2. Solder **D1** LED — **polarity!**  
-3. Solder **C1, C2** (0.1 µF)  
+3. Solder **C1, C2** (0.1 uF)  
 4. Solder **U1 AMS1117** (SOT-223)  
 5. Solder **Test** button and **1.5 V \| 3 V** switch  
 6. Solder **CR2032** holder  
@@ -125,6 +141,7 @@ Full guide: [docs/02-getting-started.md](docs/02-getting-started.md).
 | Assembly | [docs/02-getting-started.md](docs/02-getting-started.md) |
 | How to use | [docs/03-usage.md](docs/03-usage.md) |
 | Troubleshooting | [docs/04-troubleshooting.md](docs/04-troubleshooting.md) |
+| Website | [softeralab.com](https://www.softeralab.com/) |
 | Soldering course | [course page](https://www.softeralab.com/course-basic-soldering/) |
 | Contact | [Contacts](https://www.softeralab.com/our-contacts/) · support@softeralab.com |
 | Instagram | [instagram.com/softeralab](https://www.instagram.com/softeralab/) |

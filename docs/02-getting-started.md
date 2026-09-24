@@ -11,7 +11,7 @@ description: Seven assembly steps for LED & BAT Tester SK-15.
 
 Follow the kit card order. Smaller passives first, then the LDO, then mechanical parts.
 
-![Assembly order](./assets/images/assembly-order.jpg)
+![Assembly order](./assets/images/uk/assembly-order.jpg)
 
 ## Tools
 
