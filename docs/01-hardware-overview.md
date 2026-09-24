@@ -11,7 +11,7 @@ description: LED & BAT Tester SK-15 zones, power and test pads.
 
 **LED & BAT Tester · SK-15** (`Solder-Kit-SMD-Led-Tester-SK15`) is a soldering practice board that becomes a pocket tester after assembly.
 
-![How the tester works](./assets/images/uk/how-it-works.jpg)
+![How the tester works](./assets/images/en/how-it-works.png)
 
 ## Power path
 
@@ -34,7 +34,7 @@ flowchart LR
 
 ## Front side
 
-![Board overview](./assets/images/uk/board-overview.jpg)
+![Board overview](./assets/images/en/board-overview.png)
 
 | Zone | Contents |
 | --- | --- |
@@ -44,7 +44,7 @@ flowchart LR
 
 ## Back side
 
-![Second side](./assets/images/uk/board-back.jpg)
+![Second side](./assets/images/en/board-back.png)
 
 | Zone | Contents |
 | --- | --- |
@@ -57,7 +57,7 @@ flowchart LR
 
 ## Bill of materials (kit card)
 
-![Kit contents](./assets/images/uk/kit-contents.jpg)
+![Kit contents](./assets/images/en/kit-contents.png)
 
 | Ref | Value / part | Notes |
 | --- | --- | --- |
