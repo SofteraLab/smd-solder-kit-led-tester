@@ -127,6 +127,8 @@ Full guide: [docs/02-getting-started.md](docs/02-getting-started.md).
 | Troubleshooting | [docs/04-troubleshooting.md](docs/04-troubleshooting.md) |
 | Soldering course | [course page](https://www.softeralab.com/course-basic-soldering/) |
 | Contact | [Contacts](https://www.softeralab.com/our-contacts/) · support@softeralab.com |
+| Instagram | [instagram.com/softeralab](https://www.instagram.com/softeralab/) |
+| YouTube | [youtube.com/@SofteraLab](https://www.youtube.com/@SofteraLab) |
 
 ## Copyright
 
