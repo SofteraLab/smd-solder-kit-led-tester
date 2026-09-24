@@ -127,6 +127,8 @@
 | Несправності | [docs/04-troubleshooting.md](docs/04-troubleshooting.md) |
 | Курс пайки | [сторінка курсу](https://www.softeralab.com/course-basic-soldering/) |
 | Контакти | [Контакти](https://www.softeralab.com/our-contacts/) · support@softeralab.com |
+| Instagram | [instagram.com/softeralab](https://www.instagram.com/softeralab/) |
+| YouTube | [youtube.com/@SofteraLab](https://www.youtube.com/@SofteraLab) |
 
 ## Авторське право
 
